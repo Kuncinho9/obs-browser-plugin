@@ -176,9 +176,9 @@ static obs_properties_t *browser_source_get_properties(void *data)
 				OBS_TEXT_DEFAULT);
 
 	obs_properties_add_int(props, "width", obs_module_text("Width"), 1,
-			       4096, 1);
+			       6090, 1);
 	obs_properties_add_int(props, "height", obs_module_text("Height"), 1,
-			       4096, 1);
+			       6090, 1);
 
 	obs_property_t *fps_set = obs_properties_add_bool(
 		props, "fps_custom", obs_module_text("CustomFrameRate"));
